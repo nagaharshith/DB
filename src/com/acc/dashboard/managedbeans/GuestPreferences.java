@@ -12,7 +12,11 @@ import javax.faces.context.FacesContext;
 @SessionScoped
 public class GuestPreferences implements Serializable {
     
-    private String theme = "aristo";
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String theme = "aristo";
 
 	public String getTheme() {		
 		return theme;
